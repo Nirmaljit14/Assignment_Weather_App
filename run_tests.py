@@ -17,5 +17,5 @@ runner.run(unittest.TestSuite((unittest.makeSuite(CalculateMeanTests)))) # DONE
 runner.run(unittest.TestSuite((unittest.makeSuite(LoadCSVTests)))) # DONE
 runner.run(unittest.TestSuite((unittest.makeSuite(FindMinTests)))) # DONE
 runner.run(unittest.TestSuite((unittest.makeSuite(FindMaxTests)))) # DONE
-# runner.run(unittest.TestSuite((unittest.makeSuite(GenerateSummaryTests))))
-# runner.run(unittest.TestSuite((unittest.makeSuite(GenerateDailySummaryTests))))
+runner.run(unittest.TestSuite((unittest.makeSuite(GenerateSummaryTests)))) #DONE
+runner.run(unittest.TestSuite((unittest.makeSuite(GenerateDailySummaryTests)))) #DONE
